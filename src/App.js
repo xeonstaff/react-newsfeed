@@ -55,7 +55,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       fetchTheNews();
-    }, 200)
+    }, 2000)
   }, [search])
 
   if (loading) {

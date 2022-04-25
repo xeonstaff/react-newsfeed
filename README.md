@@ -4,7 +4,7 @@ Project design based on the 'tours' project by John Smilga via freeCodeCamp.org.
 
 ## Data
 Uses data & images from this API:
-https://gnews.io/login
+https://gnews.io/
 
 ## Tools
 components - material UI
