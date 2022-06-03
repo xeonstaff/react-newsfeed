@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Loading from './components/Loading'
 import NewsList from './components/NewsList'
@@ -9,7 +9,7 @@ import './index.css'
 function App() {
   const [loading, setLoading] = useState(true);
   const [thenews, setTheNews] = useState([])
-  const [search, setSearch] = useState('breaking news')
+  const [search, setSearch] = useState('technology')
 
   var api_key = process.env.REACT_APP_API_KEY
 
